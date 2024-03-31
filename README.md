@@ -20,7 +20,7 @@ Exploratory data analysis (EDA) notebook. Here we explored the CBIS-DDSM dataset
 1. Due to name changes of files or other changes in the code, running this notebook might cause errors
 2. If one still tries to run it, to make sure the other notebooks run smoothly, please remove the data, download it again, and locate it with the same names in the same directory structure as mentioned above.
 
-Unfortunately, there was no time left to change the notebook such that everything runs smoothly. However, some of the figures of the EDA seen in the thesis can be found in the notebook.
+Unfortunately, there was no time left to change the notebook such that everything runs smoothly. However, some of the figures of the EDA seen in the thesis can be found in the notebook. Note: it is not neccessary to run this notebook to run everything else successfully.
 
 ### 2. montecarlo.ipynb
 Notebook in which the monte carlo simulation was conducted. Nothing needed to run this notebook except a working version of Tensorflow. (I load the MNIST dataset with Tensorflow)
@@ -29,13 +29,13 @@ Notebook in which the monte carlo simulation was conducted. Nothing needed to ru
 Notebook in which I conducted the MNIST classification task for the logistic regression and simple CNN. It also shows the visualization analysis conducted in the thesis. Nothing needed to run this notebook except a working version of Tensorflow.
 
 ### 4. dataprep.py
-Python script with all the functions that conduct the data preprocessing script. These functions are later imported in the notebook that conducts the CBIS-DDSM classification.
+Python script with all the functions that conduct the data preprocessing script. These functions are later imported in the notebook that conducts the CBIS-DDSM classification. Hence it is not neccessary to run this.
 
 ### 5. cbis-cnn.ipynb
 Notebook in which the CBIS-DDSM classification was done with ResNet50 plus the visualization analysis. Make sure you have a correct data directory structure.
 
 ### 6. cbis-lasso.ipynb
-Notebook in which the CBIS-DDSM classification was done using the lasso regularized logistic regression. IMPORTANT: this notebook assumes you have done the data preprocessing steps in the "cbis-cnn.ipynb" notebook. Hence you can run it if in "Data/CBIS-DDSM dataset" has the following directories: base_dir, csv, masked, png. If that is the case, you did the preprocessing and you can continue running this notebook.
+Notebook in which the CBIS-DDSM classification was done using the lasso regularized logistic regression. IMPORTANT: this notebook assumes you have done the data preprocessing steps in the "cbis-cnn.ipynb" notebook. Hence you can run it if "Data/CBIS-DDSM dataset" has the following directories: base_dir, csv, masked, png. If that is the case, you did the preprocessing and you can continue running this notebook.
 
 ## Figures
 In this directory, all the figures (and possibly more) from the thesis can be found. Note that these can also be found in the notebooks themself. They are showed underneath each cell.
